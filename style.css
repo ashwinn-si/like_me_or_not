@@ -1,44 +1,57 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background-color: #B6E2D3;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     color: aliceblue;
 }
-.Container{
-   
+
+.Container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 10px;
 }
-img{
-    object-fit: cover;
-    object-position: right;
 
-    
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }
-p{
-    font-size: 25px;
+
+p {
+    font-size: 2vw; /* Adjust font size relative to viewport width */
+    margin-bottom: 20px;
 }
-.Container div{
-    flex-direction: column;
+
+button {
+    font-size: 2vw; /* Adjust font size relative to viewport width */
+    padding: 2vw 4vw; /* Adjust padding relative to viewport width */
+    margin: 5px;
 }
-.yes{
+
+.yes {
     background-color: #EF7C8E;
 }
-.no{
-    color: black;
+
+.no {
     background-color: #FAE8E0;
 }
-button{
-    color: white;
-    font-size: 20px;
-    padding: 15px;
-    border: solid;
-    border-color:white ;
-    border-radius:4px ;
 
+@media screen and (min-width: 768px) {
+    /* Add specific styles for larger screens */
+    .Container {
+        padding: 20px;
+    }
+    p {
+        font-size: 20px; /* Set fixed font size for larger screens */
+    }
+    button {
+        font-size: 16px; /* Set fixed font size for larger screens */
+        padding: 10px 20px; /* Set fixed padding for larger screens */
+    }
 }
