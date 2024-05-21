@@ -24,7 +24,7 @@ img {
 }
 
 p {
-    font-size: 2vw; /* Adjust font size relative to viewport width */
+    font-size: 2vw; 
     margin-bottom: 20px;
 }
 
@@ -34,8 +34,8 @@ button {
     border-width:1px ;
     border-radius: 4px;
     border-color: white;
-    font-size: 2vw; /* Adjust font size relative to viewport width */
-    padding: 2vw 4vw; /* Adjust padding relative to viewport width */
+    font-size: 2vw; 
+    padding: 2vw 4vw; 
     margin: 5px;
 }
 
@@ -44,6 +44,7 @@ button {
 }
 
 .no {
+    color: black;
     background-color: #FAE8E0;
 }
 
