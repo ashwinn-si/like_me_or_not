@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #B6E2D3;
+    font-family: Poppins;
+    color: aliceblue;
+}
+.Container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    object-fit: cover;
+    object-position: right;
+
+    
+}
+p{
+    font-size: 25px;
+}
+.Container div{
+    flex-direction: column;
+}
+.yes{
+    background-color: #EF7C8E;
+}
+.no{
+    color: black;
+    background-color: #FAE8E0;
+}
+button{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border: solid;
+    border-color:white ;
+    border-radius:4px ;
+
+}
